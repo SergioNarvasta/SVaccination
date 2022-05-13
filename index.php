@@ -11,6 +11,11 @@
 <a href="registro.php" target="_parent"> Registro </a>
 <a href="reporte.php" target="_parent"> Reporte </a>
 <a href="consulta.php" target="_parent"> Consulta </a>
-
+<br><br>
+<h5>Estado de Conexion con SQL Server</h5>
+<?php 
+  include_once(conexion.php);
+  Cconexion::conexionBD();
+?>
 </body>
 </html>

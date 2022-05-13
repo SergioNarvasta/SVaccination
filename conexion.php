@@ -1,5 +1,4 @@
 <?php
-    
 class Conexion{
     function conexionBD(){
         $host = "localhost";
@@ -11,9 +10,11 @@ class Conexion{
         try{
         $con = new PDO("sqlrv:Server=$host,$puerto,Database=$dbname",$username,$password);
         echo "Conexion establecida";
+
         }catch(PDOException $exp){
             echo ("Eror de conexion con BD $dbname, error $exp");
         }
+        return $con;
     }
 }
 
