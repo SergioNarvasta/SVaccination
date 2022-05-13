@@ -10,8 +10,9 @@ class Conexion{
 
         try{
         $con = new PDO("sqlrv:Server=$host,$puerto,Database=$dbname",$username,$password);
-        }catch{
-
+        echo "Conexion establecida";
+        }catch(PDOException $exp){
+            echo ("Eror de conexion con BD $dbname, error $exp");
         }
     }
 }
