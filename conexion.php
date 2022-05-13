@@ -1,5 +1,7 @@
 <?php
-     $serverName ="localhost"
+     class Conexion{
+
+     }
 
 
 
