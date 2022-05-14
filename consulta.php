@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="estilos.css" type="text/css">
     <title>Consulta</title>
 </head>
 <body>
 <br><br>
-<center><h1 class="textCarnet">Carnet de </h1></center>
-<center><h1 class="textVacunacion">Vacunacion </h1></center>
-<center><h3 class="textVacunacion">Ingrese los Datos Solicitados</h3></center><br>
+<strong><p class="textCarnet">Carnet de </p></strong>
+<strong><p class="textVacunacion">Vacunacion </p></strong>
+
+<strong><p class="textds">Ingrese los Datos Solicitados</p></strong><br>
 
 <form action=".php" method="post">
 <table class="tblconsulta" align="center">
@@ -18,13 +18,13 @@
         <td>Numero de Documento</td>
     </tr>
     <tr>
-        <td><input  type="text" value=""> </td>
+        <td><input class="inputt"  type="text" value=""> </td>
     </tr>
     <tr>
         <td>Fecha de Nacimiento(dd/mm/yyyy)</td>
     </tr>
     <tr>
-        <td><input  type="text" value=""></td>
+        <td><input class="inputt"  type="text" value=""></td>
     </tr>
     <tr> 
         <td><input class="btnConsulta" type="submit" value=">> INICIAR SESION"></td>
