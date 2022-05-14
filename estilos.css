@@ -1,4 +1,24 @@
 
+/*INICIO*/
+.btnaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#9712e4 0%, #171aee 100%);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px 5px 5px 5px;
+    border:0.5px blue solid;
+    width: 120px;
+    height: 40px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /*  REGISTRO */
 form{
