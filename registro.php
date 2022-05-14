@@ -8,7 +8,7 @@
         <br><br>
     <h1 align="center">FORMATO NOMINAL</h1>
     <br>
-    <a href="index.php" target="_parent">Volver al Inicio</a>
+    <a href="index.php" target="_parent">Inicio</a>
     <br><br>
     <form class="frmRegistro"  action="p_registro.php" method="post">
         <fieldset >
@@ -51,7 +51,7 @@
        </fieldset>
     <br>
     <fieldset>
-        <legend>Datos del paciente</legend>
+        <legend>Datos Especificos</legend>
         <table align="center">
             <tr>
                 <td>Dosis</td>
