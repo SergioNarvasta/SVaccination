@@ -1,3 +1,6 @@
+
+
+/*  REGISTRO */
 form{
     width: 80%;
     margin-left: 10%;
@@ -7,27 +10,27 @@ h1{
     color: blue;
 }
 
-.btnInicio{
+.btnInicioreg{
     text-decoration: none;
     cursor: pointer;
     margin-left: 10%;
-    border: 0.5px black solid;
+    border: 1.5px #1220e6 solid;
     border-radius:5px 5px 5px 5px ;
-    color: black;
     font-size: 20px;
     background: linear-gradient(to right,#09beeb 0%, #12bce6 100%);
+    color: white;
 }
 
-.btnInicio:hover{
+.btnInicioreg:hover{
     transform: scale(1.5);
 	transition: all 400ms;
     background: linear-gradient(to right,#06fc06 0%, #53f00a 100%);
-    
+   
 }
 
 .frmRegistro fieldset {
     background: linear-gradient(to right,#0ce7b0 0%, #1220e6 100%);
-    border: 0.5px black solid ;
+    border: 0.5px #1220e6 solid ;
     border-radius:20px 20px 20px 20px ;
 }
 .frmRegistro legend{
@@ -50,16 +53,36 @@ h1{
 	transition: all 400ms;
 }
 
+/*REPORTE*/
+
+.btnIniciorep{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10%;
+    border: 0.5px #eedf0a solid;
+    border-radius:5px 5px 5px 5px ;
+    color: black;
+    font-size: 20px;
+    background: linear-gradient(to right,#eedf0a 0%, #dfae0e 100%);
+}
+
+.btnIniciorep:hover{
+    transform: scale(1.5);
+	transition: all 400ms;
+    background: linear-gradient(to right,#5fff67 0%, #5ef717 100%);
+    
+}
 .tablerep{
     border-radius: 15px 15px 15px 15px;
-    border:0.5px black solid;
+    border:0.5px #5fff67 solid;
     background: linear-gradient(to right,#5fff67 0%, #5ef717 100%);
 }
 .estadisticas{
     width: 20%;
     margin-left: 40%;
     border-radius: 15px 15px 15px 15px;
-    border:0.5px black solid;
+    border:0.5px #eedf0a solid;
     background: linear-gradient(to right,#eedf0a 0%, #dfae0e 100%);
 
 }
+

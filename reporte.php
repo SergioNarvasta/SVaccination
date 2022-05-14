@@ -26,6 +26,8 @@ $riesgo=0;
     <br><br>
     <h2 align="center" >PADRON OFICIAL</h2>
     <br>
+    <a class="btnIniciorep" href="index.php" target="_parent">Inicio</a>
+    <br><br>
     <table class="tablerep">
      <tr>
          <td>DNI</td>
