@@ -8,6 +8,8 @@
         <br><br>
     <h1 align="center">FORMATO NOMINAL</h1>
     <br>
+    <a href="index.php" target="_parent">Volver al Inicio</a>
+    <br><br>
     <form class="frmRegistro" action="p_registro.php" method="post">
         <fieldset >
         <legend>Datos del paciente</legend>
