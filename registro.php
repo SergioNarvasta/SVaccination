@@ -8,7 +8,7 @@
         <br><br>
     <h1 align="center">FORMATO NOMINAL</h1>
     <br>
-    <a href="index.php" target="_parent">Inicio</a>
+    <a class="btnInicio" href="index.php" target="_parent">Inicio</a>
     <br><br>
     <form class="frmRegistro"  action="p_registro.php" method="post">
         <fieldset >
