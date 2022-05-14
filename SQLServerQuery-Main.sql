@@ -35,3 +35,5 @@ SELECT TOP (1000)
       ,[Factores]
   FROM [BDSystemV].[dbo].[Paciente]
   go
+
+INSERT INTO Paciente VALUES(7655423,'PEREZ','LOPEZ','JUAN CARLOS','M',24,24/11/1997,980345765,'AV LAS FLORES 2324','2da Dosis',24,24/04/2022,'Hospital ','Normal');
