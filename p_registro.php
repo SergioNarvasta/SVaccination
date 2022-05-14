@@ -37,7 +37,7 @@ fclose($archivo);
     <br>
     <h2 align="center">Informacion registrada con exito</h2>
      <br>
-     <a class="" href="reporte.php" target="_parent">Consultar Reporte</a>
+     <a class="btnreporte" href="reporte.php" target="_parent">Consultar Reporte</a>
     </body>
 
 

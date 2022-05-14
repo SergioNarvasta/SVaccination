@@ -13,7 +13,7 @@
     height: 40px;
 }
 .btnaction:hover{
-    transform: scale(1.);
+    transform: scale(1.2);
 	transition: all 400ms;
 }
 .box1{
@@ -28,13 +28,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right,#9712e4 0%, #171aee 100%);
+    margin-left: 42%;
+    background: linear-gradient(to right,#ee6408 0%, #df3f17 100%);
     text-decoration: none;
     color: aliceblue;
     border-radius: 5px 5px 5px 5px;
-    border:0.5px blue solid;
-    width: 120px;
+    border:0.5px #df3f17 solid;
+    width: 16%;
     height: 40px;
+}
+.btnreporte:hover{
+    transform: scale(1.2);
+	transition: all 400ms;
 }
 
 /*  REGISTRO */
@@ -112,7 +117,7 @@ h1{
 .tablerep{
     border-radius: 15px 15px 15px 15px;
     border:0.5px #5fff67 solid;
-    background: linear-gradient(to right,#5fff67 0%, #5ef717 100%);
+    background: linear-gradient(to right,#ee6731 0%, #f8be1e 100%);
 }
 .estadisticas{
     width: 20%;
