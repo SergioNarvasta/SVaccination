@@ -12,6 +12,10 @@
     width: 120px;
     height: 40px;
 }
+.btnaction:hover{
+    transform: scale(1.);
+	transition: all 400ms;
+}
 .box1{
     display: flex;
     justify-content: center;
@@ -19,6 +23,19 @@
     align-items: center;
 }
 
+/*  P-REGISTRO */
+.btnreporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#9712e4 0%, #171aee 100%);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px 5px 5px 5px;
+    border:0.5px blue solid;
+    width: 120px;
+    height: 40px;
+}
 
 /*  REGISTRO */
 form{
@@ -44,7 +61,7 @@ h1{
 .btnInicioreg:hover{
     transform: scale(1.5);
 	transition: all 400ms;
-    background: linear-gradient(to right,#06fc06 0%, #53f00a 100%);
+    background: linear-gradient(to right,#9712e4 0%, #9712e4 100%);
    
 }
 

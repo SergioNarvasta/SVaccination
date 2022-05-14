@@ -26,20 +26,18 @@ $paterno=trim(ucwords(strtolower($paterno)));
 $materno=trim(ucwords(strtolower($materno)));
 $nombres=trim(ucwords(strtolower($nombres)));
 
-// preparar archivo 
-//$archivo=fopen("registro.xls","a+");
+//preparar archivo 
+$archivo=fopen("registro.xls","a+");
 $informacion=$dni."\t".$paterno."\t".$materno."\t".$nombres."\t".$genero."\t".$edad."\t".$fechan."\t".$celular."\t".$direccion."\t".$dosis."\t".$fechad."\t".$centrov."\t".$factores."\n";
 fwrite($archivo,$informacion);
 fclose($archivo);
-
-
 
 ?>
     <body>
     <br>
     <h2 align="center">Informacion registrada con exito</h2>
      <br>
-     <a href="reporte.php" target="_parent">Consultar Reporte</a>
+     <a class="" href="reporte.php" target="_parent">Consultar Reporte</a>
     </body>
 
 
