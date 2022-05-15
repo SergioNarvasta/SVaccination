@@ -1,20 +1,24 @@
 <?php
-class Conexion{
-    function conexionBD(){
-        /*$host = "localhost";
-        $dbname = "BDSystemV";
-        $username = "root";
-        $password = "";
-        $puerto = "1433";*/
+$server = "DESKTOP-2NA2N4M\SQLEXPRESS";
+$database = "BDSystemV";
+$username = "Sergio";
+$password = "1234";  
 
+
+
+  class Conexion{
+    function conexionBD(){   
+
+        
         try{
-        $con = new PDO("sqlsrv:server=DESKTOP-2NA2N4M\SQLEXPRESS;database=BDSystemV",root,root);
+        $conexion = new PDO("sqlsrv:server=$server;database=$database,$username,$password");
         echo "Conexion establecida";
+        
 
         }catch(PDOException $exp){
-            echo ("Eror de conexion con BD $dbname, error $exp");
+            echo ("Eror de conexion con BD $database, error $exp");
         }
-        return $con;
+        return $conexion;
     }
 }
 

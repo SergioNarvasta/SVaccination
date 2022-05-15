@@ -2,7 +2,6 @@
 
   CREATE TABLE Paciente
 (
-       [Codigo]int identity,
 	   Dni int NOT NULL
       ,[A Paterno]varchar(20)NOT NULL
       ,[A Materno]varchar(20)NOT NULL
@@ -16,24 +15,10 @@
       ,[Fecha Dosis] date NOT NULL
       ,[Centro Vac] varchar(15) NOT NULL
       ,[Factores]varchar(30),
-    primary key (Codigo)
 );
 GO
-SELECT TOP (1000)
-        Dni
-      ,[A Paterno]
-      ,[A Materno]
-      ,[Nombres]
-      ,[Genero]
-      ,[Edad]
-      ,[Fecha Nac]
-      ,[Celular]
-      ,[Direccion]
-      ,[Dosis]
-      ,[Fecha Dosis]
-      ,[Centro Vac]
-      ,[Factores]
-  FROM [BDSystemV].[dbo].[Paciente]
-  go
 
-INSERT INTO Paciente VALUES(7655423,'PEREZ','LOPEZ','JUAN CARLOS','M',24,24/11/1997,980345765,'AV LAS FLORES 2324','2da Dosis',24,24/04/2022,'Hospital ','Normal');
+INSERT INTO Paciente
+([Dni],[A Paterno] ,[A Materno] ,[Nombres],[Genero],[Edad],[Fecha Nac],[Celular] ,[Direccion],[Dosis],[Fecha Dosis],[Centro Vac],[Factores])
+  VALUES 
+(7655423,'PEREZ','LOPEZ','JUAN CARLOS','M',24,'1997-05-18 00:00:00',9803457,'AV LAS FLORES 2324','2da Dosis','2022-02-25 00:00:00','Hospital ','Normal')

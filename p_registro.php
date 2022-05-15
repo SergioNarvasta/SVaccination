@@ -27,11 +27,22 @@ $materno=trim(ucwords(strtolower($materno)));
 $nombres=trim(ucwords(strtolower($nombres)));
 
 //preparar archivo 
-$archivo=fopen("registro.xls","a+");
-$informacion=$dni."\t".$paterno."\t".$materno."\t".$nombres."\t".$genero."\t".$edad."\t".$fechan."\t".$celular."\t".$direccion."\t".$dosis."\t".$fechad."\t".$centrov."\t".$factores."\n";
-fwrite($archivo,$informacion);
-fclose($archivo);
+//$archivo=fopen("registro.xls","a+");
+//$informacion=$dni."\t".$paterno."\t".$materno."\t".$nombres."\t".$genero."\t".$edad."\t".$fechan."\t".$celular."\t".$direccion."\t".$dosis."\t".$fechad."\t".$centrov."\t".$factores."\n";
+//fwrite($archivo,$informacion);
+//fclose($archivo);
 
+
+$server = "DESKTOP-2NA2N4M\SQLEXPRESS";
+$database = "BDSystemV";
+$username = "Sergio";
+$password = "1234"; 
+
+  $conexion = new PDO("sqlsrv:server=$server;database=$database,$username,$password");
+  $consulta = $conexion-> prepare("INSERT INTO Paciente
+  ([Dni],[A Paterno],[A Materno],[Nombres],[Genero],[Edad],[Fecha Nac],[Celular],[Direccion],[Dosis],[Fecha Dosis],[Centro Vac],[Factores])
+  VALUES($dni,$paterno,$materno,$nombres,$genero,$edad,$fechan,$celular,$direccion,$dosis,$fechad,$centrov,$factores)");
+  $consulta-> execute();
 ?>
     <body>
     <br>
