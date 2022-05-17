@@ -4,8 +4,9 @@ $fila=file("registro.xls");
 
 for($i=0; $i<count($fila); $i++){
 
-list($dni,$pat,$mat,$nom,$gen,$ed,$fen,$cel,$dir,$dos,$fed,$cenv,$fac) =explode("\t",$fila[$i]);
+list($dni,$pat,$mat,$nom,$gen,$ed,$fen,$cel,$dir,$dos,$fed,$cenv,$fac) = explode("\t",$fila[$i]);
 }
+
 $paciente=$pat." ".$mat." ".$nom;
 $hombres=3;
 $mujeres=0;
