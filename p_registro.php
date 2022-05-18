@@ -33,7 +33,6 @@ $nombres=trim(ucwords(strtolower($nombres)));
 //fwrite($archivo,$informacion);
 //fclose($archivo);
 
-
 $server = "DESKTOP-2NA2N4M\SQLEXPRESS";
 $database = "BDSystemV";
 $username = "Sergio";
