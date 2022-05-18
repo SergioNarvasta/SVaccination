@@ -58,7 +58,7 @@ $riesgo=0;
         
      </tr>
      <tr>
-     <td><?php echo $dni?></td>
+        <td><?php echo $dni?></td>
          <td><?php echo $paciente?></td>
          <td><?php echo $gen?></td>
          <td><?php echo $ed?></td>
@@ -112,6 +112,20 @@ $riesgo=0;
          <td><?php echo $fac?></td>
      </tr>
      <tr>
+     <tr>
+         <td><?php echo $dni?></td>
+         <td><?php echo $paciente?></td>
+         <td><?php echo $gen?></td>
+         <td><?php echo $ed?></td>
+         <td><?php echo $fen?></td>
+         <td><?php echo $cel?></td>
+         <td><?php echo $dir?></td>
+         <td><?php echo $dos?></td>
+         <td><?php echo $fed?></td>
+         <td><?php echo $cenv?></td>
+         <td><?php echo $fac?></td>
+        
+     </tr>
 
 
     </table>
