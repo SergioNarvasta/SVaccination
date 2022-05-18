@@ -7,6 +7,7 @@
 <?php
 
 //captura de datos
+
 $dni=$_POST["txtdni"];
 $paterno=$_POST["txtpaterno"];
 $materno=$_POST["txtmaterno"];
@@ -39,9 +40,11 @@ $username = "Sergio";
 $password = "1234"; 
 
   $conexion = new PDO("sqlsrv:server=$server;database=$database,$username,$password");
+ 
   $consulta = $conexion-> prepare("INSERT INTO Paciente
   ([Dni],[A Paterno],[A Materno],[Nombres],[Genero],[Edad],[Fecha Nac],[Celular],[Direccion],[Dosis],[Fecha Dosis],[Centro Vac],[Factores])
   VALUES($dni,$paterno,$materno,$nombres,$genero,$edad,$fechan,$celular,$direccion,$dosis,$fechad,$centrov,$factores)");
+  
   $consulta-> execute();
 ?>
     <body>
