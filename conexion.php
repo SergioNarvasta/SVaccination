@@ -1,5 +1,7 @@
 <?php
+
 //Parametros de conexion
+
 $server = "DESKTOP-2NA2N4M\SQLEXPRESS";
 $database = "BDSystemV";
 $username = "Sergio";
