@@ -26,6 +26,7 @@
                     on a.idescuela = e.idescuela 
                     inner join participante as p
                     on a.idtipoparticipante = p.idtipoparticipante";
+                    
                 $f = mysql_query($query, $cn);
                 
                 while($r = mysql_fetch_array($f)) {
