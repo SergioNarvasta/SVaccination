@@ -11,40 +11,58 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel=StyleSheet href="estilos.css" type="text/css">
-    <title>Consulta</title>
+    <link rel=StyleSheet href="styles.css" type="text/css">
+    <title>Consulta Detallada</title>
 </head>
 <body>
 <br><br><br>
 <strong><p class="textCarnet">Consulta de Espedientes en Linea</p></strong><br>
-<table class="tblconsulta" align="center">
-    <tr> 
-        <td>CONTROLES DE OPERACIONES</td>
-        <td><a class="btnreporte" href="detconsulta.php" target="_parent">Ver Detalle de Expediente</a></td>
-        <td><a class="btnreporte" href="futvirtual.php" target="_parent">Salir del Sistema</a></td>
-    </tr>
-</table>
-<strong><p  class="textds">Informacion del expediente</p></strong><br>
+
+<strong><p  class="textds">Informacion detallada del expediente</p></strong><br>
 
 <form action=".php" method="post">
-<table class="tblconsulta" align="center">
-    <tr>
-        <td>Numero de Expediente</td>
-        <td>Nombre del Administrado</td>
+<table class="tblDetalle" align="center">
+   <tr>
+       <td>Nro Expediente</td>
+       <td><?php echo $nrodoc?></td>
+   </tr>
+   <tr>
+       <td>Tipo de Documento</td>
+       <td><?php echo $tipodoc?></td>
+   </tr>
+   <tr>
+       <td>Apellidos </td>
+       <td><?php echo $apel?></td>
+   </tr>
+   <tr>
+       <td>Nombres</td>
+       <td><?php echo $nom?></td>
+   </tr>
+   <tr>
+       <td>Correo</td>
+       <td><?php echo $cel?></td>
+   </tr>
+   <tr>
+       <td>Celular</td>
+       <td><?php echo $cel?></td>
+   </tr>
+   <tr>
+       <td>Titulo de Documento</td>
+       <td><?php echo $tit ?></td>
+   </tr>
+   <tr>
+       <td>Descripcion del tramite</td>
+       <td><?php echo $desc?></td>
        
-    </tr>
-    <tr>
-    <td><?php echo $nrodoc?></td>
-        <td><?php echo $nom?></td>
-    </tr>
-    <tr>
-        <td>Documento</td>
-        <td>Asunto</td>
-    </tr>
-    <tr>
-        <td><?php echo $tipodoc?></td>
-        <td><?php echo $desc?></td>
-    </tr>
+   </tr>
+   <tr>
+       <td>Area Destinada</td>
+       <td><?php echo $area?></td>
+   </tr>
+   <tr>
+       <td>Estado Actual</td>
+       <td><?php echo $est?></td>
+   </tr>
 
 </table>
 

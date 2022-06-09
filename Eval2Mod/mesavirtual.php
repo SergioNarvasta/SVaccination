@@ -1,3 +1,12 @@
+<?php 
+$fila=file("registro.xls");
+
+for($i=0; $i<count($fila); $i++){
+
+list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = explode("\t",$fila[$i]);
+}
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,26 +19,22 @@
 <strong><p align="center" class="textCarnet">Consulta de Tramite</p></strong>
 <strong><p align="center" class="textds">Ingrese los Datos Solicitados</p></strong><br>
 
-<form action=".php" method="post">
 <table class="tblconsulta" align="center">
     <tr>
         <td>Numero de Documento</td>
     </tr>
     <tr>
-        <td><input class="inputt"  type="text" value=""> </td>
+        <td><input class="input"  type="text" value=""> </td>
     </tr>
     <tr>
         <td>Password</td>
     </tr>
     <tr>
-        <td><input class="inputt"  type="text" value=""></td>
+        <td><input class="input"  type="text" value=""></td>
     </tr>
     <tr> 
-        <td><input class="btnConsulta" type="submit" value="- CONSULTAR -"></td>
+        <td><a class="btnConsulta"  href="consulta.php"target="_parent"> CONSULTAR</a></td>
     </tr>
 </table>
-
-</form>
-
 </body>
 </html>

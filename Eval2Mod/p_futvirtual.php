@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel=StyleSheet href="estilos.css" type="text/css">
+        <link rel=StyleSheet href="styles.css" type="text/css">
         <title>Registro de Tramites</title>
     </head>  
 <?php
@@ -54,7 +54,7 @@ fclose($archivo);
 </tr>   
     </table>
      <br>
-     <a class="btnreporte" href="futvirtual.php" target="_parent">Volver</a>
+     <a class="btnConsulta" href="futvirtual.php" target="_parent">Volver</a>
     </body>
 
 <?php 
