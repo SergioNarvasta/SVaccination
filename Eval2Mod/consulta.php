@@ -16,7 +16,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 </head>
 <body>
 <br><br><br>
-<strong><p class="textCarnet">Consulta de Espedientes en Linea</p></strong><br>
+<strong><h1 >Consulta de Espedientes en Linea</h1></strong><br>
 <table class="tblConsulta" align="center">
     <tr> 
         <td>CONTROLES DE OPERACIONES</td>
@@ -26,7 +26,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 </table>
 <strong><p  class="textds">Informacion del expediente</p></strong><br>
 
-<table class="tblconsulta" align="center">
+<table class="tblConsulta" align="center">
     <tr>
         <td>Numero de Expediente</td>
         <td>Nombre del Administrado</td>

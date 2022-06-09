@@ -6,16 +6,15 @@ $codigoT=$codigo+1;
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel=StyleSheet href="estilos.css" type="text/css">
+        <link rel=StyleSheet href="styles.css" type="text/css">
         <title>Sistema de Tramite Documentario</title>
     </head>
     <body>
         <br>
-    <h1 align="center">FUT Virtual</h1><br>
+    <h1 align="center">FUT Virtual</h1>
     <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
     <p>Acontinuacion registre sus datos y el documento a tramitar. </p> 
-    <p>Si ya tiene un tramite  <a class="btnConsulta" href="mesavirtual.php" target="_parent">Consulte</a>  el estado actual! </p>
-    <br>
+    <a class="btnConsulta" href="mesavirtual.php" target="_parent">->CONSULTE</a>
     
     <form class="frmRegistro"  action="p_futvirtual.php" method="post">
         <fieldset >
@@ -77,7 +76,7 @@ $codigoT=$codigo+1;
         </table>
     </fieldset>
     <br>
-            <input class="btnRegistrar" type="submit" value="Registrar">              
+            <input class="btnRegistrar" type="submit" value="       Registrar">              
  
     </form>
 

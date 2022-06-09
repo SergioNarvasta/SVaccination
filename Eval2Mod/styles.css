@@ -1,0 +1,71 @@
+
+.btnRegistrar{    
+    background: linear-gradient(to right,#05499c 0%, #171aee 100%);
+    margin-left: 40%;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px 5px 5px 5px;
+    border:0.5px blue solid;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;   
+}
+.btnRegistrar:hover{
+    transform: scale(1.3);
+	transition: all 400ms;
+}
+.frmRegistro fieldset {
+    background: linear-gradient(to right,#308dff 0%, #171aee 100%);
+    border: 0.5px #3e49e2 solid ;
+    border-radius:20px 20px 20px 20px ;
+}
+.frmRegistro legend{
+    text-decoration: none;
+    color: rgb(5, 5, 22);
+    font-size: 20px;
+}
+
+p{
+ align-self: center;
+ align-items: center;
+}
+.tblDetalle {
+    border-radius: 15px 15px 15px 15px;
+    border:0.5px #160a9d solid;
+    background: linear-gradient(to right,#7ec50a 0%, #f8be1e 100%);
+}
+
+.btnConsulta{   
+    margin-left: 35%; 
+    background: linear-gradient(to right,#0a13c3 0%, #3fa5ee 100%);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px 5px 5px 5px;
+    border:0.5px blue solid;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;   
+}
+.btnConsulta p{
+    margin-left: 10%;
+}
+.btnConsulta:hover{
+    transform: scale(1.3);
+	transition: all 400ms;
+}
+.tblConsulta{
+    border-radius: 15px 15px 15px 15px;
+    border:0.5px #160a9d solid;
+    background: linear-gradient(to right,#7ec50a 0%, #f8be1e 100%);
+}
+.tblInfo{
+    border-radius: 15px 15px 15px 15px;
+    border:0.5px #160a9d solid;
+    
+}

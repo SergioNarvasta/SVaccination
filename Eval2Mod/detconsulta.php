@@ -16,12 +16,12 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 </head>
 <body>
 <br><br><br>
-<strong><p class="textCarnet">Consulta de Espedientes en Linea</p></strong><br>
+<strong><h1 class="textCarnet">Consulta de Expedientes en Linea</h1></strong><br>
 
 <strong><p  class="textds">Informacion detallada del expediente</p></strong><br>
 
 <form action=".php" method="post">
-<table class="tblDetalle" align="center">
+<table class="tblConsulta" align="center">
    <tr>
        <td>Nro Expediente</td>
        <td><?php echo $nrodoc?></td>
@@ -40,7 +40,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
    </tr>
    <tr>
        <td>Correo</td>
-       <td><?php echo $cel?></td>
+       <td><?php echo $correo?></td>
    </tr>
    <tr>
        <td>Celular</td>

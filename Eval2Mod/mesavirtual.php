@@ -5,13 +5,13 @@ for($i=0; $i<count($fila); $i++){
 
 list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = explode("\t",$fila[$i]);
 }
- ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel=StyleSheet href="estilos.css" type="text/css">
+    <link rel=StyleSheet href="styles.css" type="text/css">
     <title>Consulta</title>
 </head>
 <body>
