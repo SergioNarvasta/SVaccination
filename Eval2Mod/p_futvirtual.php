@@ -35,13 +35,13 @@ fclose($archivo);
     <br>
     <h2 align="center">Tramite registrado con exito</h2>
     <p>Estimado <?php echo $apellidos.' '.$nombres ?> guarde la siguiente informacion para consultar el estado de su tramite </p>
-    <table>
+    <table align="center"> 
 <tr>
     <td>Nro de Tramite</td>
     <td><?php echo $nroDoc ?></td>
 </tr>
 <tr>
-    <td>Titulo de Tramite<</td>
+    <td>Titulo de Tramite</td>
     <td><?php echo $titulo?></td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ fclose($archivo);
 </tr>   
     </table>
      <br>
-     <a class="btnreporte" href="reporte.php" target="_parent">Consultar Reporte</a>
+     <a class="btnreporte" href="futvirtual.php" target="_parent">Volver</a>
     </body>
 
 <?php 

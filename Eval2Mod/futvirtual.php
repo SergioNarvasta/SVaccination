@@ -13,9 +13,10 @@ $codigoT=$codigo+1;
         <br>
     <h1 align="center">FUT Virtual</h1><br>
     <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
-    <p>Acontinuacion registre sus datos y el documento a tramitar. </p>
+    <p>Acontinuacion registre sus datos y el documento a tramitar. </p> 
+    <p>Si ya tiene un tramite  <a class="btnreporte" href="consulta.php" target="_parent">Consulte</a>  el estado actual! </p>
     <br>
-    <br><br>
+    
     <form class="frmRegistro"  action="p_futvirtual.php" method="post">
         <fieldset >
         <legend>Datos del Usuario</legend>
