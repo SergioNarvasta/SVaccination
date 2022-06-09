@@ -2,11 +2,13 @@
     <head>
         <meta charset="utf-8">
         <link rel=StyleSheet href="estilos.css" type="text/css">
-        <title>Registro de Pacientes</title>
+        <title>Sistema de Tramite Documentario</title>
     </head>
     <body>
         <br><br>
-    <h1 align="center">FORMATO NOMINAL</h1>
+    <h1 align="center">FUT Virtual</h1>
+    <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
+    <p>Acontinuacion registre sus datos y el documento a tramitar. </p>
     <br>
     <a class="btnInicioreg" href="index.php" target="_parent">.:  Inicio  :.  </a>
     <br><br>
