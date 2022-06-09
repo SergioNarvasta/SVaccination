@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -5,87 +6,69 @@
         <title>Sistema de Tramite Documentario</title>
     </head>
     <body>
-        <br><br>
-    <h1 align="center">FUT Virtual</h1>
+        <br>
+    <h1 align="center">FUT Virtual</h1><br>
     <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
     <p>Acontinuacion registre sus datos y el documento a tramitar. </p>
     <br>
-    <a class="btnInicioreg" href="index.php" target="_parent">.:  Inicio  :.  </a>
     <br><br>
-    <form class="frmRegistro"  action="p_registro.php" method="post">
+    <form class="frmRegistro"  action="p_futvirtual.php" method="post">
         <fieldset >
-        <legend>Datos del paciente</legend>
+        <legend>Datos del Usuario</legend>
         <table align="center">
             <tr>
-                <td>DNI</td>
-                <td><input type="text" name="txtdni" required="true" ></td></td>
+                <td>Tipo de Documento</td>
+                <td>Nro de Documento</td>   
             </tr>
             <tr>
-                <td>AP PATERNO</td>
-                <td>AP MATERNO</td>
+            <td><select name="lstTipoDoc">
+                    <option value="Hospital Regional Huacho">Rectificacion de Matricula</option>
+                    <option value="Posta de Salud Huaura">Servicios Medicos</option>
+                    <option value="Posta de Salud Manzanares">Matricula Ingresantes</option>
+                    <option value="Posta de Salud Manzanares">Matricula Pregrado</option>
+                    <option value="Posta de Salud Manzanares">Matricula Posgrado</option>
+                    <option value="Posta de Salud Huaura">Certificado de Estudios</option>
+                </select> </td>  
+            <td><input type="text" name="txtNroDoc" required="true" value="t-98959" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td>APELLIDOS</td>
                 <td>NOMBRES</td>
-            </tr>
-            <tr>
-                <td><input type="text" name="txtpaterno" autocomplete="off" required="true" ></td>
-                <td><input type="text" name="txtmaterno" autocomplete="off" required="true" ></td>
-                <td><input type="text" name="txtnombres" autocomplete="off" required="true" ></td>
-            </tr>
-            <tr>
-                <td>GENERO</td>
-                <td>EDAD</td>
-                <td>FECHA DE NACIMIENTO</td>
-            </tr>
-            <tr>
-                <td><input type="radio" name="rbtgenero" value="M">Masculino
-                    <input type="radio" name="rbtgenero" value="F">Femenino</td>
-                <td><input type="text" name="txtedad"></td>
-                <td><input type="date" name="fechanac"></td>
-            </tr>
-            <tr>
+                <td>GMAIL</td>
                 <td>CELULAR</td>
-                <td colspan="2">DIRECCION</td>  
             </tr>
             <tr>
-                <td><input type="text" name="txtcelular"></td>
-                <td><input type="text" name="txtdireccion"></td>
+                <td><input type="text" name="txtapellidos" autocomplete="on" required="true" ></td>
+                <td><input type="text" name="txtnombres" autocomplete="on" required="true" ></td>
+                <td><input type="text" name="txtcorreo" autocomplete="on" required="true" ></td>
+                <td><input type="text" name="txtcelular" autocomplete="on" required="true" ></td>
             </tr>
         </table>
        </fieldset>
     <br>
     <fieldset>
-        <legend>Datos Especificos</legend>
+        <legend>Datos del Tramite</legend>
         <table align="center">
             <tr>
-                <td>Dosis</td>
-                <td>Fecha de Dosis</td>
-                <td>Centro de Vacunacion</td>
+                <td>Titulo de Tramite</td>
+                <td>Dependencia del tramite</td>
             </tr>
             <tr>
-                <td><select name="txtdosis">
-                    <option value="1era Dosis">1era Dosis</option>
-                    <option value="2da Dosis">2da Dosis</option>
-                    <option value="3era Dosis">3era Dosis</option>
-                    <option value="4ta Dosis">4ta Dosis</option>
-                </select></td>
-                <td><input type="date" name="fechadosis"></td>
-                <td><select name="lstcentrov">
-                    <option value="Hospital Regional Huacho">Hospital Regional Huacho</option>
-                    <option value="Posta de Salud Huaura">Posta de Salud Huaura</option>
-                    <option value="Posta de Salud Manzanares">Posta de Salud Manzanares</option>
-                </select> </td>
+                <td><input type="text" name="txtTitulo" autocomplete="on" required="true" ></td>    
+                <td><select name="lstArea">
+                    <option value="Vicerrectorado Academico">Vicerrectorado Academico</option>
+                    <option value="Vicerrectorado de Invetigacion">Vicerrectorado de Invetigacion</option>
+                    <option value="Oficina de Servicios Informaticos">Oficina de Servicios Informaticos</option>
+                    <option value="Oficina de Registros Academicos">Oficina de Registros Academicos</option>
+                    <option value="Decanato de FIISI">Decanato de FIISI</option>
+                </select> </td>  
             </tr>
-            <tr>
-                <td colspan="6">Factor de Riesgo</td>
+            <tr> 
+            <td>Descripcion del tramite</td>
             </tr>
-            <tr>
-                <td><input type="checkbox" name="lstfactores" value="Normal">Normal</td>
-                <td><input type="checkbox" name="lstfactores" value="Sindrome de Down">Sindrome de Down</td>
-                <td><input type="checkbox" name="lstfactores" value="Dialisis">Dialisis</td>
-                <td><input type="checkbox" name="lstfactores" value="60-69 años">60-69 años</td>
-                <td><input type="checkbox" name="lstfactores" value="70-79 años">70-79 años</td>
-                <td><input type="checkbox" name="lstfactores" value="80 a mas">80 a mas</td>
+            <tr> 
+            <td><input type="text" name="txtdesc" autocomplete="on" required="true" ></td> 
             </tr>
-            
         </table>
     </fieldset>
     <br>
@@ -96,3 +79,11 @@
     </body>
 
 </html>
+<?php
+$codigoT = 656446;
+for ($i=0; $i < 999999; $i++) { 
+    $Cod= $codigoT++;
+    return $Cod;
+}
+
+?>
