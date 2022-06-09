@@ -5,6 +5,7 @@
 
 <body>
 <br><br>
+
 <center><h1>Sistema de Gestion de Informacion</h1></center>
 <br><br>
 <div class="box1"> 
