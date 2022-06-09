@@ -1,4 +1,8 @@
+<?php
+$codigo = 656446;
+$codigoT=$codigo+1;
 
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -29,7 +33,7 @@
                     <option value="Posta de Salud Manzanares">Matricula Posgrado</option>
                     <option value="Posta de Salud Huaura">Certificado de Estudios</option>
                 </select> </td>  
-            <td><input type="text" name="txtNroDoc" required="true" value="t-98959" readonly="readonly"></td>
+            <td><input type="text" name="txtNroDoc" required="true" value="<?php echo $codigoT ?>  " readonly="readonly"></td>
             </tr>
             <tr>
                 <td>APELLIDOS</td>
@@ -79,11 +83,3 @@
     </body>
 
 </html>
-<?php
-$codigoT = 656446;
-for ($i=0; $i < 999999; $i++) { 
-    $Cod= $codigoT++;
-    return $Cod;
-}
-
-?>

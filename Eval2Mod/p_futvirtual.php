@@ -5,14 +5,11 @@
         <title>Registro de Tramites</title>
     </head>  
 <?php
+
 //captura de datos
-
 $codigo = 234546;
-for ($i=0; $i < 999999; $i++) { 
-    $password= $codigo+1;
-    return $password;
-}
-
+$password= $codigo+1;
+   
 $tipodoc=$_POST["lstTipoDoc"];
 $nroDoc=$_POST["txtNroDoc"];
 $apellidos=$_POST["txtapellidos"];
@@ -26,12 +23,10 @@ $estado="Ingresado";
 
 $paterno=trim(ucwords(strtolower($apellidos)));
 $nombres=trim(ucwords(strtolower($nombres)));
-
 $archivo=fopen("registro.xls","a+");
 $informacion=$tipodoc."\t".$nroDoc."\t".$apellidos."\t".$nombres."\t".$correo."\t".$celular."\t".$titulo."\t".$area."\t".$descripcion."\t".$password."\t".$estado."\n";
 fwrite($archivo,$informacion);
-fclose($archivo);
-
+fclose($archivo); 
 //include("conexion.php")
 
 ?>
@@ -39,22 +34,29 @@ fclose($archivo);
 <body>
     <br>
     <h2 align="center">Tramite registrado con exito</h2>
-    <p>Estimado <?php $apellidos+' '+ $nombres ?> guarde la siguiente informacion para consultar el estado de su tramite </p>
+    <p>Estimado <?php echo $apellidos.' '.$nombres ?> guarde la siguiente informacion para consultar el estado de su tramite </p>
     <table>
-    <tr>
-                <td>Nro de Tramite</td>
-                <td>Titulo de Tramite</td>
-                <td>Area Destinada</td>
-                <td>Password</td>
-            </tr>
-            <tr>
-                <td><?php $nroDoc?></td>
-                <td><?php $titulo?>  </td>
-                <td><?php $area?> </td>
-                <td><?php $password ?> </td>
-            </tr>
+<tr>
+    <td>Nro de Tramite</td>
+    <td><?php echo $nroDoc ?></td>
+</tr>
+<tr>
+    <td>Titulo de Tramite<</td>
+    <td><?php echo $titulo?></td>
+</tr>
+<tr>
+    <td>Area Destinada</td>
+    <td><?php echo $area?></td>
+</tr>
+<tr>
+    <td>Password</td>
+    <td><?php echo $password ?></td>
+</tr>   
     </table>
      <br>
      <a class="btnreporte" href="reporte.php" target="_parent">Consultar Reporte</a>
     </body>
 
+<?php 
+
+?>
