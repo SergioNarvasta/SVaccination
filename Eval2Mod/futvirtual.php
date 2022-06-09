@@ -26,12 +26,12 @@ $codigoT=$codigo+1;
             </tr>
             <tr>
             <td><select name="lstTipoDoc">
-                    <option value="Hospital Regional Huacho">Rectificacion de Matricula</option>
-                    <option value="Posta de Salud Huaura">Servicios Medicos</option>
-                    <option value="Posta de Salud Manzanares">Matricula Ingresantes</option>
-                    <option value="Posta de Salud Manzanares">Matricula Pregrado</option>
-                    <option value="Posta de Salud Manzanares">Matricula Posgrado</option>
-                    <option value="Posta de Salud Huaura">Certificado de Estudios</option>
+                    <option value="Rectificacion de Matricula">Rectificacion de Matricula</option>
+                    <option value="Servicios Medicos">Servicios Medicos</option>
+                    <option value="Matricula Ingresantes">Matricula Ingresantes</option>
+                    <option value="Matricula Pregrado">Matricula Pregrado</option>
+                    <option value="Matricula Posgrado">Matricula Posgrado</option>
+                    <option value="Certificado de Estudios">Certificado de Estudios</option>
                 </select> </td>  
             <td><input type="text" name="txtNroDoc" required="true" value="<?php echo $codigoT ?>  " readonly="readonly"></td>
             </tr>

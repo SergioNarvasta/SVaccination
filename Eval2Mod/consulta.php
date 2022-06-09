@@ -1,4 +1,5 @@
 <?php 
+$ubic="Mesa de Partes";
 $fila=file("registro.xls");
 
 for($i=0; $i<count($fila); $i++){
@@ -43,6 +44,21 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
     <tr>
         <td><?php echo $tipodoc?></td>
         <td><?php echo $desc?></td>
+    </tr>
+    </tr>
+    </table>
+    <br>
+    <p style="color:red;"> LA SITUACION ACTUAL DE SU EXPEDIENTE CONSULTADO ES :</p>
+   <table>
+    <tr>
+        <td>Estado Actual</td>
+        <td>             </td>
+        <td>Ubicacion Actual</td>
+    </tr>
+    <tr>
+        <td><?php echo $est?></td>
+        <td>                </td>
+        <td><?php echo $ubic?></td>
     </tr>
 
 </table>
