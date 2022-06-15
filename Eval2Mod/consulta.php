@@ -12,7 +12,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 <head>
     <meta charset="UTF-8">
     <link rel=StyleSheet href="styles.css" type="text/css">
-    <title>Consulta</title>
+    <title>Consulta</title> 
 </head>
 <body>
 <br><br><br>
