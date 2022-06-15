@@ -9,7 +9,6 @@
 //captura de datos
 $codigo = 234546;
 $password= $codigo+1;
-   
 $tipodoc=$_POST["lstTipoDoc"];
 $nroDoc=$_POST["txtNroDoc"];
 $apellidos=$_POST["txtapellidos"];

@@ -6,7 +6,6 @@ for($i=0; $i<count($fila); $i++){
 
 list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = explode("\t",$fila[$i]);
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

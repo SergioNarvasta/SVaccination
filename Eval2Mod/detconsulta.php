@@ -52,8 +52,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
    </tr>
    <tr>
        <td>Descripcion del tramite</td>
-       <td><?php echo $desc?></td>
-       
+       <td><?php echo $desc?></td>      
    </tr>
    <tr>
        <td>Area Destinada</td>
@@ -63,7 +62,6 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
        <td>Estado Actual</td>
        <td><?php echo $est?></td>
    </tr>
-
 </table>
 
 </form>
