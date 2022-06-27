@@ -18,7 +18,7 @@
                 <td>Participante</td>
                 <td>Certificado</td>
             </tr>
-            
+
             <?php
                 include("conexion.php");
                 
@@ -39,6 +39,8 @@
                 <td><?php echo $r["sexo"] ?></td>
                 <td><?php echo $r["celular"] ?></td>
                 <td><?php echo $r["correo"] ?></td>
+
+                
                 <td><?php echo $r["tipoparticipante"] ?></td>
                 <td>
                     <a class="button_diploma" href="diploma.php?codigo=<?php echo $r["idalumno"]?>" target="_blank">
