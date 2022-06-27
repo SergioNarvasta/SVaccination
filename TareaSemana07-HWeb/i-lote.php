@@ -1,5 +1,4 @@
 <?php
-
     include("conexion.php");
 
     $archivo = $_FILES["file"]["tmp_name"];
@@ -18,7 +17,6 @@
         mysql_query($sql, $cn);
         $sqlMajor .= $sql;
     }
-    
     mysql_close($cn);
     header("location: index.php");
 ?>
