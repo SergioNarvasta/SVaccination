@@ -10,7 +10,6 @@ $password = "1234";
         try{
         $conexion = new PDO("sqlsrv:server=$server;database=$database,$username,$password");
         echo "¡Conexion establecida!";
-
         }catch(PDOException $exp){
             echo ("Eror de conexion con BD $database, error $exp");
         }
