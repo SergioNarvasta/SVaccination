@@ -1,5 +1,5 @@
 
-/*INICIO*/
+/******************  INICIO  *****************/
 .btnaction{
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-/*  P-REGISTRO */
+/************  P-REGISTRO ************/
 .btnreporte{
     display: flex;
     justify-content: center;
@@ -41,8 +41,7 @@
     transform: scale(1.2);
 	transition: all 400ms;
 }
-
-/*  REGISTRO */
+/***************  REGISTRO ***************/
 form{
     width: 80%;
     margin-left: 10%;
@@ -51,7 +50,6 @@ h1{
     text-decoration: none;
     color: blue;
 }
-
 .btnInicioreg{
     text-decoration: none;
     cursor: pointer;

@@ -18,6 +18,7 @@
                 <td>Participante</td>
                 <td>Certificado</td>
             </tr>
+            
             <?php
                 include("conexion.php");
                 
