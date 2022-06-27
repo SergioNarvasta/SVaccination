@@ -125,7 +125,6 @@ h1{
     border-radius: 15px 15px 15px 15px;
     border:0.5px #eedf0a solid;
     background: linear-gradient(to right,#eedf0a 0%, #dfae0e 100%);
-
 }
 
 /*CONSULTA*/
@@ -149,7 +148,6 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: -4%;
-
 }
 .tblconsulta td{
     color: #21f5c0;
@@ -168,7 +166,6 @@ h1{
 	transition: all 400ms;
     cursor: pointer;
 }
-
 .inputt{
     width: 220px;
 }
