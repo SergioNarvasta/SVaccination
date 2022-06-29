@@ -46,7 +46,6 @@ while ($r = mysql_fetch_array($fila)) {
         $pdf->ezNewPage();
 }
 
- 
 $pdf->ezStream();
 
 ?>
