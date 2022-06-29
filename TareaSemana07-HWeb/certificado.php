@@ -6,6 +6,7 @@
     $pdfIcon = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/PDF_icon.svg/896px-PDF_icon.svg.png"
 ?>
 <main class="home__main">
+    
     <div class="report">
         <table align="center">
             <tr>
@@ -52,6 +53,7 @@
             ?>
         </table>
     </div>
+
     <div class="pdf-group-fieldset">
         <h2>Ver pdf por escuela</h2>
         <form action="diploma.php" method="get">
@@ -70,6 +72,7 @@
             <button class="btn-form-escuela" type="submit">VER PDFs</button>
         </form>
     </div>
+
     <div class="pdf-group-fieldset">
         <h2>Ver pdfs por participante</h2>
         <form action="diploma.php" method="get">
