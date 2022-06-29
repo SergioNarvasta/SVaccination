@@ -16,6 +16,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 </head>
 <body>
 <br><br><br>
+
 <strong><p align="center" class="textCarnet">Consulta de Tramite</p></strong>
 <strong><p align="center" class="textds">Ingrese los Datos Solicitados</p></strong><br>
 
