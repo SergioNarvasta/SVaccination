@@ -18,18 +18,17 @@
                 <td>Participante</td>
                 <td>Certificado</td>
             </tr>
-
             <?php
-                include("conexion.php");
-                
+                include("conexion.php");    
                 $query = "select a.*, e.*, p.*
                     from alumno as a inner join escuela as e
                     on a.idescuela = e.idescuela 
                     inner join participante as p
-                    on a.idtipoparticipante = p.idtipoparticipante";
+                    on a.idtipoparticipante = p.
                     
-                $f = mysql_query($query, $cn);
-                
+                    ";
+                    
+                $f = mysql_query($query, $cn); 
                 while($r = mysql_fetch_array($f)) {
             ?>
             <tr>
