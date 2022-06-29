@@ -15,6 +15,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
     <title>Consulta</title>
 </head>
 <body>
+
 <br><br><br>
 
 <strong><p align="center" class="textCarnet">Consulta de Tramite</p></strong>
@@ -28,6 +29,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
         <td><input class="input"  type="text" value=""> </td>
     </tr>
     <tr>
+        
         <td>Password</td>
     </tr>
     <tr>

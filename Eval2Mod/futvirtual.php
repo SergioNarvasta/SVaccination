@@ -10,7 +10,8 @@ $codigoT=$codigo+1;
         <title>Sistema de Tramite Documentario</title>
     </head>
     <body>
-        
+
+    
         <br>
     <h1 align="center">FUT Virtual</h1>
     <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
