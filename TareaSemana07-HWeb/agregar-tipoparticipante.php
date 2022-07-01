@@ -10,9 +10,6 @@
     <title>Agregar Tipo Participante</title>
 </head>
 <body>
-
-
-
     <form action="i-agregar-tipoparticipante.php" method="post">
         <label for="input-tipoparticipante">Tipo Participante</label>
         <input type="text" name="tipoparticipante" id="input-tipoparticipante">

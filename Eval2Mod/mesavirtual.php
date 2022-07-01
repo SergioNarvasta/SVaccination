@@ -7,6 +7,7 @@ list($tipodoc,$nrodoc,$apel,$nom,$correo,$cel,$tit,$area,$desc,$psd,$est) = expl
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
