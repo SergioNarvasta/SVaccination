@@ -10,13 +10,13 @@ $codigoT=$codigo+1;
         <title>Sistema de Tramite Documentario</title>
     </head>
     <body>
-
-    
         <br>
     <h1 align="center">FUT Virtual</h1>
     <p>!Bienvenido al Sistema de Tramite documentario¡ </p>
     <p>Acontinuacion registre sus datos y el documento a tramitar. </p> 
     <a class="btnConsulta" href="mesavirtual.php" target="_parent">->CONSULTE</a>
+    
+
     
     <form class="frmRegistro"  action="p_futvirtual.php" method="post">
         <fieldset >
