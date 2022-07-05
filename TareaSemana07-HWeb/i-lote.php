@@ -5,6 +5,7 @@
 
     $sqlMajor = "";
     // open the file and save the rows into an array
+    
     $fila = file($archivo);
     foreach ($fila as $registro) {
         
