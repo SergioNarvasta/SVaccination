@@ -7,6 +7,7 @@
 </head>
 <body>
 <br><br>
+
 <strong><p class="textCarnet">Carnet de </p></strong>
 <strong><p class="textVacunacion">Vacunacion </p></strong>
 

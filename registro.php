@@ -14,6 +14,7 @@
         <fieldset >
         <legend>Datos del paciente</legend>
         <table align="center">
+            
             <tr>
                 <td>DNI</td>
                 <td><input type="text" name="txtdni" required="true" ></td></td>
