@@ -18,8 +18,9 @@
         
         mysql_query($sql, $cn);
         $sqlMajor .= $sql;
-
     }
+
     mysql_close($cn);
+    
     header("location: index.php");
 ?>
