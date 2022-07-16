@@ -9,6 +9,7 @@ $escuela = isset($_GET["escuela"]) ? $_GET["escuela"] : FALSE;
 $tipoparticipante = isset($_GET["tipoparticipante"]) ? $_GET["tipoparticipante"] : FALSE;
 
 if ($codigo) {
+        
   $query = "select a.*, e.*, p.*
                     from alumno as a inner join escuela as e
                     on a.idescuela = e.idescuela 
