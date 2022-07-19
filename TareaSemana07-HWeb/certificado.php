@@ -25,8 +25,7 @@
                     from alumno as a inner join escuela as e
                     on a.idescuela = e.idescuela 
                     inner join participante as p
-                    on a.idtipoparticipante = p.
-                    
+                    on a.idtipoparticipante = p.   
                     ";
                     
                 $f = mysql_query($query, $cn); 

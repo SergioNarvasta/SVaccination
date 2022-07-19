@@ -17,6 +17,7 @@
                     '$sex', '$cel', '$mail', $participante); ";
         
         mysql_query($sql, $cn);
+        
         $sqlMajor .= $sql;
     }
 
