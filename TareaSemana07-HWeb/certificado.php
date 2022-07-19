@@ -1,7 +1,6 @@
 <?php
 
 // TODO: gestion de la tabla tipo participante
-
     include("cabecera.php");
     $pdfIcon = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/PDF_icon.svg/896px-PDF_icon.svg.png"
 ?>

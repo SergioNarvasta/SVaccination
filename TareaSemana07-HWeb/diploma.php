@@ -24,6 +24,7 @@ if ($codigo) {
                     on a.idtipoparticipante = p.idtipoparticipante
             where a.idescuela = $escuela";
 } else if ($tipoparticipante) {
+        
   $query = "select a.*, e.*, p.*
                     from alumno as a inner join escuela as e
                     on a.idescuela = e.idescuela 
